@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "multiplepdfchat"
+version = "0.1.0"
+description = ""
+authors = ["Maxwell Nderitu <nderitumaxwell@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.0.215"
+pypdf2 = "^3.0.1"
+python-dotenv = "^1.0.0"
+streamlit = "^1.23.1"
+openai = "^0.27.8"
+tiktoken = "^0.4.0"
+faiss-cpu = "^1.7.4"
+huggingface-hub = "^0.15.1"
+instructorembedding = "^1.0.1"
+sentence-transformers = "^2.2.2"
+
+[tool.poetry.group.dev.dependencies]
+watchdog = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
